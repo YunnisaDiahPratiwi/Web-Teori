@@ -37,6 +37,12 @@
       .product-image img {
         max-width: 100%;
         height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+      .product-image img:hover {
+        transform: scale(1.05);
       }
       .product-details {
         flex: 1;
@@ -87,9 +93,13 @@
         border: none;
         cursor: pointer;
         font-size: 16px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       }
       #buy-now:hover {
         background-color: #0056b3;
+        transform: translateY(-2px);
       }
     </style>
   </head>
