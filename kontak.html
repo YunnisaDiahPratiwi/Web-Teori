@@ -36,18 +36,18 @@
                 <h2>Contact us</h2>
             </div>
             <div class="form-right">
-                <form>
+                <form action="kontak.php" method="post">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="nama" required>
                     
                     <label for="email">E-mail Address:</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                     
                     <label for="phone">Telephone Number:</label>
-                    <input type="tel" id="phone" name="phone">
+                    <input type="tel" id="phone" name="nomor_telpon" required>
                     
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message"></textarea>
+                    <textarea id="message" name="pesan" required></textarea>
                     
                     <button type="submit">Send</button>
                 </form>
@@ -98,3 +98,4 @@
     
 </body>
 </html>
+
