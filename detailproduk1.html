@@ -116,6 +116,12 @@
         background: black;
         color: white;
       }
+      .product-details ul {
+      font-size: 0.85em; /* Mengurangi ukuran font */
+      }
+      .product-details li {
+        margin-bottom: 3px; /* Memberi sedikit jarak antar item */
+      }
     </style>
   </head>
   <body>
@@ -142,8 +148,15 @@
         <p class="price">Rp. 180.000,00</p>
         <p>Euphoria Shop Cash Rp. 180.000,00</p>
         <p class="pre-order">For pre-order</p>
-        <p>Scheduled Shipping Start Date: 07/21/2024 ~ 07/28/2024</p>
-        <p class="note">Scheduled Delivery Date is subject to product and logistics issues and may face delays. If the schedule is changed, customers will be notified individually.</p>
+        <p class="note">
+            Detail:
+            <ul>
+              <li>Band: 4 types of covers / 148*200mm</li>
+              <li>Booklet: 72p (same image for each version)</li>
+              <li>CD-R: 1 type inserted (images vary by version)</li>
+              <li>Photo card: 1 random out of 4 types (same image for each version)</li>
+            </ul>
+          </p>
         <div class="quantity">
           <label for="quantity">Quantity:</label>
           <input type="number" id="quantity" name="quantity" value="1" min="1" max="5" />
