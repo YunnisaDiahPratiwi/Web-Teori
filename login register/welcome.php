@@ -21,7 +21,9 @@ $_SESSION['username'];
 <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            /* background-color: #f4f4f4; */
+            background: url(../img/begron.jpg);
+            background-size: cover;
             margin: 0;
             padding: 0;
         }
@@ -131,6 +133,7 @@ $_SESSION['username'];
             </div> 
         </div>
         <a href="index.php"><button class="btn-custom" style="width:100% ; border-radius: 30px; font-weight:600;">Log Out</button></a>
+        <a href="../index.html"><button class="btn-custom" style="width: 80px ; border-radius: 30px; font-weight:600;">back</button></a>
     </div>
     
 </body>
