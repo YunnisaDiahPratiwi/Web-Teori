@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <!--box icon link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!--remix icon link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        max-width: 900px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin: 20px auto;
+        padding: 20px;
+        margin-top: 100px;
+      }
+      .product-image {
+        flex: 1;
+        text-align: center;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+      .product-image img {
+        max-width: 100%;
+        height: auto;
+      }
+      .product-details {
+        flex: 1;
+        padding: 20px;
+      }
+      .product-details h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .product-details h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .price {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+      .pre-order {
+        color: green;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .note {
+        font-size: 14px;
+        color: #888;
+        margin-bottom: 20px;
+      }
+      .quantity {
+        margin-bottom: 20px;
+      }
+      .quantity label {
+        margin-right: 10px;
+      }
+      .quantity input {
+        width: 50px;
+        text-align: center;
+      }
+      .buy-now-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+      }
+      #buy-now {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      #buy-now:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><div>Euphoria</div></a>
+      <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="kontak.html">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="#"><i class="ri-search-line"></i></a>
+        <a href="#"><i class="ri-user-3-line"></i></a>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="product-image">
+        <img src="img/n1.png" alt="11th Mini Album 'SEVENTEENTH" />
+      </div>
+      <div class="product-details">
+        <h1>SEVENTEEN</h1>
+        <h2>11th Mini Album SEVENTEENTH</h2>
+        <p class="price">Rp 850.000</p>
+        <p>Weverse Shop Cash Rp 850.000</p>
+        <p class="pre-order">For pre-order</p>
+        <p>Scheduled Shipping Start Date: 07/21/2024 ~ 07/28/2024</p>
+        <p class="note">Scheduled Delivery Date is subject to product and logistics issues and may face delays. If the schedule is changed, customers will be notified individually.</p>
+        <div class="quantity">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" value="1" min="1" max="5" />
+        </div>
+        <p>Total (1 item): Rp 850.000</p>
+        <div class="buy-now-container">
+          <button type="button" id="buy-now">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <section class="footer">
+      <div class="footer-box" data-aos="fade-down">
+        <h3>Euphoria KStore</h3>
+        <p><i class="ri-mail-line"></i> : euphoriakstore@gmail.com</p>
+        <p><i class="ri-phone-line"></i> : 082217051078</p>
+        <p><i class="ri-map-pin-line"></i> : Jl. Prof. Dr. Sumantri Brojonegoro No.1, <br />Kota Bandar Lampung</p>
+      </div>
+
+      <div class="footer-box" data-aos="fade-down">
+        <h3>FAQ</h3>
+        <a href="#">About</a>
+        <a href="product.html">Product</a>
+        <a href="#">Account</a>
+        <a href="kontak.html">Contact</a>
+      </div>
+
+      <div class="footer-box" data-aos="fade-down">
+        <h3>Social Media</h3>
+        <div class="social">
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-youtube-line"></i></a>
+          <a href="#"><i class="ri-twitter-x-line"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!--CP-->
+    <div class="end-text">
+      <p>Copyright 2024 By Pancawati</p>
+    </div>
+
+    <script src="ks/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1450,
+      });
+    </script>
+  </body>
+</html>
