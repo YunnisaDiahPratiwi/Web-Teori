@@ -116,6 +116,12 @@
         background: black;
         color: white;
       }
+      .product-details ul {
+      font-size: 0.85em; /* Mengurangi ukuran font */
+      }
+      .product-details li {
+        margin-bottom: 3px; /* Memberi sedikit jarak antar item */
+      }
     </style>
   </head>
   <body>
@@ -142,8 +148,22 @@
         <p class="price">Rp. 850.000,00</p>
         <p>Euphoria Shop Cash Rp. 850.000,00</p>
         <p class="pre-order">For pre-order</p>
-        <p>Scheduled Shipping Start Date: 07/21/2024 ~ 07/28/2024</p>
-        <p class="note">Scheduled Delivery Date is subject to product and logistics issues and may face delays. If the schedule is changed, customers will be notified individually.</p>
+        <p class="note">
+          Detail:
+          <ul>
+            <li>TOTAL 3 VERSIONS</li>
+            <li>OUTBOX: W158 X H161 X D36 (mm) / 1EA</li>
+            <li>PHOTOBOOK: W150 X H150 (mm) / 80 Pages / 1EA</li>
+            <li>LYRIC BOOK: W876 X H146 (mm) / 12 Pages / 1EA</li>
+            <li>FESTIVAL WRISTBAND: W251 X H19 (mm) / 1EA / FIRST PRESS ONLY</li>
+            <li>PAPER ART KIT: W149 X H149 (mm) / 4-5 PER VERSION</li>
+            <li>STICKER: W80 X H80 (mm) / 1 OUT OF 13 RANDOM</li>
+            <li>PHOTOCARD: W55 X H85 (mm) / 2 OUT OF 26 RANDOM</li>
+            <li>MINI CARD: W55 X H85 (mm) / 1 OUT OF 13 RANDOM</li>
+            <li>CD-R: 1EA</li>
+            <li>FOLDED POSTER: W438 X H292 (mm) / 1EA / FIRST PRESS ONLY</li>
+          </ul>
+        </p>
         <div class="quantity">
           <label for="quantity">Quantity:</label>
           <input type="number" id="quantity" name="quantity" value="1" min="1" max="5" />
@@ -155,6 +175,7 @@
         </div>
       </div>
     </div>
+    
 
     <!--Footer-->
     <section class="footer">
