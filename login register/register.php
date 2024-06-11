@@ -72,7 +72,7 @@
                       <input type="submit" value="Register" name="register" class="btn-custom" style="width:100% ; border-radius: 30px; font-weight:600;" />
                     </div>
                   </form>
-                  <p align="center">i have already account <a href="index.php" class="text-black" style="font-weight:600; text-decoration:none;">Login</a></p>
+                  <p align="center">i have already account <a href="index.php" class="text-warning" style="font-weight:600; text-decoration:none;">Login</a></p>
                 </div>
                 <!-- <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
                   <img src="signup.png" class="img-fluid" alt="Gambar Contoh" height="300px" width="500px">

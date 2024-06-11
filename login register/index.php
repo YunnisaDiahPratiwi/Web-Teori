@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="style.css">
   <style>
     .btn-custom {
-      background-color: black; /* Warna abu-abu */
+      background-color: black; 
       color: white;
       width: 70px;
       height: 50px;
