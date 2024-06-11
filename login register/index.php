@@ -13,8 +13,18 @@
   <link rel="stylesheet" href="style.css">
   <style>
     .btn-custom {
-      background-color: #6c757d; /* Warna abu-abu */
+      background-color: black; /* Warna abu-abu */
       color: white;
+      width: 70px;
+      height: 50px;
+
+    }
+    .btn-custom:hover {
+      transform: scale(0.9) translateY(-4px);
+      border: 2px solid black;
+      background: transparent;
+      color: black;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -43,7 +53,7 @@
 
             <!-- Tombol Submit -->
             <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-              <input type="submit" value="Sign in" name="login" class="btn btn-custom btn-lg text-light my-2 py-3" style="width:100% ; border-radius: 30px; font-weight:600;" />
+              <input type="submit" value="Sign in" name="login" class="btn-custom" style="width:100% ; border-radius: 30px; font-weight:600;" />
             </div>
           </form><br>
           <p style="text-align: center;">Saya tidak punya akun <a href="register.php" class="text-warning" style="font-weight:600;text-decoration:none;">Daftar di sini</a></p>

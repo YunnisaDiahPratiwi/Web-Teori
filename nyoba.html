@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-pop Merch Store</title>
+    <style>
+        .telegram-button {
+            background-color: black; /* Warna abu-abu */
+            color: white;
+            width: 50px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        .telegram-button:hover{
+            transform: scale(0.9) translateY(-4px);
+            border: 2px solid black;
+            border-radius: 10px;
+            background: transparent;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our K-pop Merch Store!</h1>
+    <button class="telegram-button" onclick="redirectToTelegram()">Chat</button>
+    <!-- <a href="https://telegram.me/yourTelegramLink" class="telegram-button">
+        <i class="ri-chat-1-line"></i>
+    </a> -->
+    
+
+    <script>
+        function redirectToTelegram() {
+            window.location.href = "https://t.me/euphorisakstore";
+        }
+    </script>
+</body>
+</html>
