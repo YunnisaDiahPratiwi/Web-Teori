@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
+    <title>Detail</title>
     <!--box icon link-->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
     <link rel="stylesheet" href="style.css" />
@@ -87,7 +87,7 @@
         margin-top: 20px;
       }
       #buy-now {
-        background-color: #007bff;
+        background-color: black;
         color: white;
         padding: 10px 20px;
         border: none;
@@ -98,9 +98,24 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       }
       #buy-now:hover {
-        background-color: #0056b3;
+        color: black;
+        border: 2px solid black;
+        background: transparent;
         transform: translateY(-2px);
       }
+      .telegram-button {
+        background-color: white; /* Warna abu-abu */
+        color: black;
+        width: 50px;
+        height: 30px;
+        border-radius: 10px;
+        }
+        .telegram-button:hover{
+        border: 2px solid black;
+        border-radius: 10px;
+        background: black;
+        color: white;
+        }
     </style>
   </head>
   <body>
@@ -112,8 +127,8 @@
         <li><a href="kontak.html">Contact</a></li>
       </ul>
       <div class="nav-right">
-        <a href="#"><i class="ri-search-line"></i></a>
-        <a href="#"><i class="ri-user-3-line"></i></a>
+        <button class="telegram-button" onclick="redirectToTelegram()">Chat</button>
+        <a href="../Web-Teori/login register/welcome.php"><i class="ri-user-3-line"></i></a>
       </div>
     </header>
 
