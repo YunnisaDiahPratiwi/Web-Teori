@@ -46,7 +46,7 @@
               <input type="submit" value="Sign in" name="login" class="btn btn-custom btn-lg text-light my-2 py-3" style="width:100% ; border-radius: 30px; font-weight:600;" />
             </div>
           </form><br>
-          <p align="center">Saya tidak punya akun <a href="register.php" class="text-warning" style="font-weight:600;text-decoration:none;">Daftar di sini</a></p>
+          <p style="text-align: center;">Saya tidak punya akun <a href="register.php" class="text-warning" style="font-weight:600;text-decoration:none;">Daftar di sini</a></p>
         </div>
       </div>
     </div>
