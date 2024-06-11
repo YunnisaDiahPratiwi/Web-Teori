@@ -12,8 +12,18 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
   <style>
     .btn-custom {
-      background-color: #6c757d; /* Warna abu-abu */
+      background-color: black;
       color: white;
+      width: 70px;
+      height: 50px;
+
+    }
+    .btn-custom:hover {
+      transform: scale(0.9) translateY(-4px);
+      border: 2px solid black;
+      background: transparent;
+      color: black;
+      font-weight: bold;
     }
     .text-black {
       color: black;
@@ -59,7 +69,7 @@
                     </div>
 
                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <input type="submit" value="Register" name="register" class="btn btn-custom btn-lg text-light my-2 py-3" style="width:100% ; border-radius: 30px; font-weight:600;" />
+                      <input type="submit" value="Register" name="register" class="btn-custom" style="width:100% ; border-radius: 30px; font-weight:600;" />
                     </div>
                   </form>
                   <p align="center">i have already account <a href="index.php" class="text-black" style="font-weight:600; text-decoration:none;">Login</a></p>
