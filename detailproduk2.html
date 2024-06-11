@@ -116,11 +116,17 @@
         background: black;
         color: white;
       }
+      .product-details ul {
+      font-size: 0.85em; /* Mengurangi ukuran font */
+      }
+      .product-details li {
+        margin-bottom: 3px; /* Memberi sedikit jarak antar item */
+      }
     </style>
   </head>
   <body>
     <header>
-      <a href="index.html" class="logo"><div>Euphoria</div></a>
+      <a href="#" class="logo"><div>Euphoria</div></a>
       <ul class="navlist">
         <li><a href="index.html">Home</a></li>
         <li><a href="product.html">Product</a></li>
@@ -142,16 +148,23 @@
         <p class="price">Rp. 600.000,00</p>
         <p>Euphoria Shop Cash Rp. 600.000,00</p>
         <p class="pre-order">For pre-order</p>
-        <p>Scheduled Shipping Start Date: 07/21/2024 ~ 07/28/2024</p>
-        <p class="note">Scheduled Delivery Date is subject to product and logistics issues and may face delays. If the schedule is changed, customers will be notified individually.</p>
+        <p class="note">
+            Detail:
+            <ul>
+              <li>Outbox + 2 Folded Poster + 2 Sticker</li>
+              <li>Desk Calender</li>
+              <li>Hard Cover Diary</li>
+              <li>Member Set SG 2024</li>
+              <li>2 Mini Poster A4 + 4cut Photo + 2 Postcard + DecoSticker + 2 Photocard</li>
+            </ul>
+          </p>
         <div class="quantity">
           <label for="quantity">Quantity:</label>
           <input type="number" id="quantity" name="quantity" value="1" min="1" max="5" />
         </div>
         <p>Total (1 item): Rp. 600.000,00</p>
         <div class="buy-now-container">
-          <a href="payment_process.php">
-          <button type="button" id="buy-now">Buy Now</button></a>
+          <button type="button" id="buy-now">Buy Now</button>
         </div>
       </div>
     </div>
