@@ -2,6 +2,8 @@
 session_start();
 include_once('connection.php');
 
+
+
 // if(isset($_SESSION['name']) && isset($_SESSION['username'] )){
 
 // }
@@ -32,10 +34,10 @@ $_SESSION['username'];
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       
     }.container span{
-        background-color: gold;
+        background-color: black;
         color: white;
         padding: 15px;
-        margin: 10pxpx;
+        margin: 10px;
         border-radius: 8px;
         font-size: 25px;
         font-weight: 600;
@@ -46,7 +48,7 @@ $_SESSION['username'];
     }.container .btn{
         margin-top: -30px;
         width: 150px;
-        background-color: gold;
+        background-color: black;
         color: white;
         font-weight: 500;
         letter-spacing: 5px;
@@ -55,7 +57,7 @@ $_SESSION['username'];
     }.container .btn:hover{
         margin-top: -30px;
         width:200px;
-        background-color: darkorange;
+        background-color: darkgray;
         font-weight: 500;
         transition: 1s;
         color: white;
