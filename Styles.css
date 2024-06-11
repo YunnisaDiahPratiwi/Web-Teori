@@ -151,6 +151,7 @@ section{
 .container {
     max-width: 1000px;
     margin:  50px;
+    margin-left: 100px;
     padding: 10px;
     background-color: #000000;
 }
@@ -168,6 +169,7 @@ section{
     background-color: #141012;
     padding: 40px;
     border-radius: 8px;
+    margin-left: 20px;
 }
 
 .form-container {
