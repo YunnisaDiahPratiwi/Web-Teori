@@ -41,7 +41,7 @@
             <p class="text-center h1 fw-bold mb-4 mx-1 mx-md-3 mt-3">Login Euphoria</p>
             <!-- Input Email -->
             <div class="form-outline mb-4">
-              <label class="form-label" for="form1Example13"> <i class="bi bi-person-circle"></i> Username</label>
+              <label class="form-label" for="form1Example13"> <i class="bi bi-person-circle"></i> Email</label>
               <input type="email" id="form1Example13" class="form-control form-control-lg py-3" name="username" autocomplete="off" placeholder="masukkan e-mail anda" style="border-radius:25px ;" />
             </div>
 
